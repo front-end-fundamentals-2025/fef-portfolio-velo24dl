@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
+    <title>Portfolio Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,29 +12,38 @@
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-
   <body>
     <header>
       <p id="logotype">Lova Venema</p>
       <nav>
         <ul>
-          <a href="#"><li>Home</li></a>
+          <a href="index.html"><li>Home</li></a>
           <a href="contact.html"><li>Contact</li></a>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1>This is Me</h1>
-      <img class="main-img" src="/images/me.jpeg" alt="Picture of me" />
       <p>
-        Hello! My name is Lova, I'm 21 years old and I live in Jönköping. I'm
-        currently studying New Media Design at JU, and you are more than welcome
-        to my portfolio. Here I will be posting what I am currently working on
-        and previous projects. If you wish to work with me, you can find how to
-        contact me under the "contact" tab in the top left corner! Hope to hear
-        from you! Much Love, Lova
+        If you would like to get in contact with me, please write in your name
+        and content information and why you are getting in touch with me, and I
+        will get back to you as soon as possible.
       </p>
+      <form action="name">
+        <input value="Name" />
+      </form>
+
+      <form action="number">
+        <input value="Phone number" />
+      </form>
+
+      <form action="email">
+        <input value="Email" />
+      </form>
+
+      <textarea name="" id="writeamessage"> </textarea>
+
+      <button>Submit</button>
     </main>
 
     <footer>
