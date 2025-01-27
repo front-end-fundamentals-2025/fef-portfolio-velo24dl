@@ -5,10 +5,21 @@
 
 /*HEADER*/
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* navigaion */
 ul {
+  display: flex;
   list-style: none;
   padding-left: 2%;
+}
+
+li {
+  margin-left: 3rem;
 }
 a {
   color: black;
@@ -16,9 +27,9 @@ a {
 
 /* logo */
 #logotype {
+  display: flex;
   font-weight: 600;
   font-size: 2.5rem;
-  text-align: center;
 }
 
 /*MAIN*/
@@ -67,7 +78,22 @@ textarea {
   margin-top: 1.5%;
 }
 
-/*Main - Contact Page*/
+/* Main - Contact Page */
+
+/* Main - Portfolio Page */
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*Alternative
+  'img, img, img'
+  'img, img, img';
+  */
+}
+
+.portfolio-image {
+  width: 100%; /* will be 100% as they should take 100% of each column*/
+}
 
 /* FOOTER */
 
