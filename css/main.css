@@ -31,6 +31,7 @@ a {
 #logotype {
   display: flex;
   font-weight: 600;
+  padding-top: 3%;
   font-size: 2.5rem;
 }
 
@@ -39,20 +40,31 @@ a {
 /*Main - Home Page*/
 
 h1 {
-  padding-left: 2%;
-  margin-bottom: 5%;
-  font-size: 1.5rem;
+  display: flex;
+  padding-left: 5%;
+  font-size: 4rem;
+}
+
+.homepage-contianer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-content: space-around;
 }
 
 p {
-  text-align: left;
-  padding-left: 2%;
+  font-size: 1.2rem;
+  padding-left: 5%;
 }
 
 /* picture */
 .main-img {
-  width: 20%;
-  padding-left: 2%;
+  width: 70%;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+.header-image {
+  width: 100%;
 }
 
 /*Main - home page end*/
@@ -89,6 +101,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  padding-left: 2%;
   /*Alternative
   'img, img, img'
   'img, img, img';
@@ -99,6 +112,21 @@ textarea {
   width: 100%; /* will be 100% as they should take 100% of each column*/
 }
 
+/* End Main - Portfolio page*/
+
+/* Main Portfolio-1 page*/
+
+.jazzandblues-page {
+  display: flex;
+}
+
+.jazzandblues-image {
+  width: 50%;
+  margin-left: 2%;
+}
+
+/* End Portfolio-1 Page*/
+
 /* FOOTER */
 
 footer {
@@ -108,7 +136,7 @@ footer {
 }
 
 h2 {
-  margin-left: 2%;
-  font-weight: 500;
-  font-size: 1rem;
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
