@@ -146,7 +146,16 @@ textarea {
 
 /* End Main - Portfolio page*/
 
-/* Main Portfolio-1 page*/
+/* Main Portfolio-1 Page*/
+
+.portfolio1-img-contianer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* End Main Portfolio-1 Page*/
+
+/* Main Portfolio-2 page*/
 
 .jazzandblues-page {
   display: flex;
@@ -164,7 +173,7 @@ textarea {
   margin-bottom: 1%;
 }
 
-/* End Portfolio-1 Page*/
+/* End Portfolio-2 Page*/
 
 /* FOOTER */
 
