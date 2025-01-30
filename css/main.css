@@ -21,7 +21,7 @@ ul {
 }
 
 li {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 a {
   color: black;
@@ -98,10 +98,6 @@ textarea {
   width: 40%;
 }
 
-/* button {
-  margin-top: 10px;
-} */
-
 #writeamessage {
   border: 1px solid black;
   border-radius: 7px;
@@ -147,12 +143,27 @@ textarea {
 /* End Main - Portfolio page*/
 
 /* Main Portfolio-1 Page*/
-
 .portfolio1-img-contianer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 2fr);
+  justify-items: center;
 }
 
+.coffeeimg {
+  margin-top: 2%;
+  width: 97%;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.portfolio-text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
 /* End Main Portfolio-1 Page*/
 
 /* Main Portfolio-2 page*/
@@ -167,10 +178,11 @@ textarea {
   width: 50%;
 }
 
-.jazzPrintDescription {
+.printDescription {
   font-size: 1rem;
   margin-top: 1%;
   margin-bottom: 1%;
+  margin-right: 5%;
 }
 
 /* End Portfolio-2 Page*/
@@ -188,7 +200,7 @@ footer {
   margin-bottom: 0.5%;
 }
 
-h3 {
+#footer-name {
   margin-top: 10%;
   padding-left: 3%;
   font-weight: 700;
