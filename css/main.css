@@ -164,6 +164,22 @@ h3 {
   grid-template-columns: 1fr;
   justify-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .portfolio1-img-contianer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .coffeeimg {
+    width: 80%;
+  }
+}
 /* End Main Portfolio-1 Page*/
 
 /* Main Portfolio-2 page*/
