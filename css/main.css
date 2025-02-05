@@ -65,6 +65,183 @@ p {
   padding-left: 5%;
 }
 
+.books {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: stretch;
+  animation-name: book;
+  animation-iteration-count: infinite;
+}
+
+.book-1 {
+  background-color: #0c2933;
+  width: 130px;
+  height: 400px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+}
+
+.book-2 {
+  background-color: #966725;
+  width: 100px;
+  height: 300px;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+.book-3 {
+  background-color: #dfe193;
+  width: 70px;
+  height: 420px;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+.book-4 {
+  background-color: #90413c;
+  width: 50px;
+  height: 400px;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+.book-5 {
+  background-color: #681412;
+  width: 70px;
+  height: 320px;
+  rotate: -6deg;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+
+.book-6 {
+  background-color: #022313;
+  width: 70px;
+  height: 420px;
+  margin-left: 1.2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 5s;
+}
+
+.book-7 {
+  background-color: #ccc2c1;
+  width: 100px;
+  height: 350px;
+  rotate: 5deg;
+  margin-left: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 6s;
+}
+.book-8 {
+  background-color: #5f3100;
+  width: 100px;
+  height: 390px;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 7s;
+}
+
+.book-9 {
+  background-color: #dfe193;
+  width: 130px;
+  height: 400px;
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 8s;
+}
+
+.book-10 {
+  background-color: #285e42;
+  width: 70px;
+  height: 420px;
+  margin-left: 1.2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 9s;
+}
+
+.book-11 {
+  background-color: #681412;
+  width: 60px;
+  height: 460px;
+  rotate: -5deg;
+  margin-left: 1.2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 10s;
+}
+
+.book-12 {
+  background-color: #966725;
+  width: 130px;
+  height: 400px;
+  margin-left: 1.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation-name: book;
+  animation-duration: 1s;
+  animation-delay: 11s;
+}
+
+@keyframes book {
+  40% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+
+  60% {
+    transform: rotate(-2deg);
+  }
+  70% {
+    transform: rotate(2deg);
+  }
+
+  80% {
+    transform: rotate(-2deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
+
 /* picture */
 .main-img {
   width: 70%;
@@ -157,6 +334,7 @@ textarea {
 h3 {
   font-weight: 700;
   font-size: 2.2rem;
+  margin-left: 3%;
 }
 
 .portfolio-text-container {
