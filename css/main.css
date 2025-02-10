@@ -252,7 +252,7 @@ p {
 .image-me {
   background-image: url(../images/me.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: baseline;
 }
 
 .header-image {
@@ -263,22 +263,48 @@ p {
 
 /*Main - Contact Page*/
 
-form {
-  width: 40%;
-  margin-left: 50 px;
-  margin-top: 1%;
-  border-color: black;
+.form-page-container {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-items: start;
 }
 
-textarea {
-  height: 100px;
-  width: 40%;
+#contact-desctiption {
+  margin-right: 50%;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+  align-items: stretch;
+  padding-left: 5%;
+}
+
+#form-specifications {
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 50px;
+  width: 500px;
+  margin-top: 2%;
+  text-align: center;
 }
 
 #writeamessage {
   border: 1px solid black;
-  border-radius: 7px;
-  margin-top: 1.5%;
+  border-radius: 40px;
+  margin-top: 2%;
+  height: 200px;
+  width: 500px;
+}
+
+#send-button {
+  background-color: #681412;
+  color: white;
+  border: none;
+  margin-top: 2%;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
 }
 
 /* Main - Contact Page */
@@ -298,23 +324,6 @@ textarea {
 
 .portfolio-image {
   width: 100%; /* will be 100% as they should take 100% of each column*/
-}
-
-@media screen and (max-width: 1024px) {
-  .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 650px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .portfolio-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 }
 
 /* End Main - Portfolio page*/
@@ -343,21 +352,6 @@ h3 {
   justify-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .portfolio1-img-contianer {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  .coffeeimg {
-    width: 80%;
-  }
-}
 /* End Main Portfolio-1 Page*/
 
 /* Main Portfolio-2 page*/
@@ -399,4 +393,30 @@ footer {
   padding-left: 3%;
   font-weight: 700;
   font-size: 2.2rem;
+}
+
+/* Media Quieries*/
+@media screen and (max-width: 1024px) {
+  .portfolio1-img-contianer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .coffeeimg {
+    width: 80%;
+  }
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
