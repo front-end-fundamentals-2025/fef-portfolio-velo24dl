@@ -16,7 +16,7 @@ header {
 ul {
   display: flex;
   align-self: center;
-  font-weight: 700;
+  font-weight: 600;
   list-style: none;
 }
 
@@ -31,9 +31,10 @@ a {
 #logotype {
   display: flex;
   align-self: center;
+  text-decoration: none; /* to remove line underneath link, taken from w3schools*/
   font-weight: 600;
   padding-top: 3%;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /*MAIN*/
@@ -252,7 +253,7 @@ p {
 .image-me {
   background-image: url(../images/me.jpeg);
   background-size: cover;
-  background-position: baseline;
+  background-position: center;
 }
 
 .header-image {
@@ -281,7 +282,16 @@ p {
 }
 
 #form-specifications {
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 30px;
+  height: 50px;
+  width: 500px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#name-specifications {
+  border: 1px solid grey;
   border-radius: 30px;
   height: 50px;
   width: 500px;
@@ -290,7 +300,11 @@ p {
 }
 
 #writeamessage {
-  border: 1px solid black;
+  border: 1px solid grey;
+  /*start help w3schools - To use padding to make space inside textarea when writing i took from w3schools*/
+  padding-left: 5%;
+  padding-top: 5%;
+  /*end help w3schools*/
   border-radius: 40px;
   margin-top: 2%;
   height: 200px;
@@ -378,6 +392,7 @@ h3 {
 /* FOOTER */
 
 footer {
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
